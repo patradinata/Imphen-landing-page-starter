@@ -13,10 +13,10 @@ export default function Footer() {
           <a href="https://discord.gg/" target="_blank" aria-label="Discord">
             <FaDiscord />
           </a>
-          <a href="https://facebook.com/groups/xxx" target="_blank" aria-label="Facebook Group">
+          <a href="https://facebook.com/groups/" target="_blank" aria-label="Facebook Group">
             <FaFacebook />
           </a>
-          <a href="https://instagram.com/xxx" target="_blank" aria-label="Instagram">
+          <a href="https://instagram.com/patra_dinata" target="_blank" aria-label="Instagram">
             <FaInstagram />
           </a>
           <a href="https://github.com/patradinata" target="_blank" aria-label="GitHub">
