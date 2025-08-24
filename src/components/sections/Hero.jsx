@@ -18,8 +18,8 @@ export default function HeroSection() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl text-sky-700 font-bold capitalize selection:bg-sky-200">
               selamat datang di <strong>IMPHEN</strong>
             </h1>
-            <p className="selection:bg-sky-200 max-w-md text-sky-700 font-normal">
-              Hanya disini, dapatkan dopamin baru melaluii postingan aneka ragam member, Belajar skill baru? Bisa. Tapi kita lebih jago fesnukan sambil sabung framework. Yuk, gabung sekarang... atau enggak juga nggak apa-apa sih. Kita juga
+            <p className="selection:bg-sky-200 max-w-sm text-sky-700 font-normal">
+              Hanya disini, dapatkan dopamin baru melalui postingan aneka ragam member, Belajar skill baru? Bisa. Tapi kita lebih jago fesnukan sambil sabung framework. Yuk, gabung sekarang... atau enggak juga nggak apa-apa sih. Kita juga
               lagi mager promosi. Capek. #lanjut-scroll-fesnuk
             </p>
             <div className="flex gap-4 pt-4 text-sm w-full">
@@ -33,7 +33,7 @@ export default function HeroSection() {
             <div className="flex gap-2 items-center flex-col">
               <p className="text-xs font-medium capitalize text-sky-700 selection:bg-sky-200 animate-bounce">patra-dinata All right reserved.</p>
               <div className="flex items-center gap-4 text-sky-600 text-xl">
-                <Link href="https://www.instagram.com/patra_dinata/" target="_blank">
+                <Link href="https://www.instagram.com/patra_dinata" target="_blank">
                   <FaInstagram />
                 </Link>
                 <Link href="https://github.com/patradinata" target="_blank">
