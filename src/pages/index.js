@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Plus_Jakarta_Sans } from "next/font/google";
+
 import HeroSection from "@/components/sections/Hero";
 import AboutSection from "@/components/sections/About";
 import ActivitySection from "@/components/sections/Activity";

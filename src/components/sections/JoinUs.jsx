@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaDiscord, FaUsers } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaDiscord, FaUsers, FaWhatsapp, FaWhatsappSquare } from "react-icons/fa";
 import { PiArrowRightFill, PiArrowRightLight } from "react-icons/pi";
 import GithubOrgSection from "./Github.Org";
 
@@ -34,7 +34,7 @@ export default function JoinUsSection() {
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/YOUR_INSTAGRAM",
+      url: "https://www.instagram.com/patra_dinata",
       icon: <FaInstagram size={36} className="text-white" />,
       desc: "Isi feed random banget. Kadang meme, kadang polling ngoding, kadang postingan aesthetic dengan caption galau dev life.",
       type: "Ikuti",
@@ -44,16 +44,16 @@ export default function JoinUsSection() {
       borderColor: "border-pink-300",
       textColor: "text-pink-800",
       cardButtonClass: "bg-pink-100 border-pink-300 text-pink-800",
-      cardBadgeClass: "bg-pink-100 text-pink-700",
+      cardBadgeClass: "bg-pink-100 text-pink-700 ",
     },
     {
-      name: "Page Facebook",
-      url: "https://www.facebook.com/YOUR_PAGE",
-      icon: <FaFacebookF size={36} className="text-white" />,
-      desc: "Follow buat update atau liat pengumuman penting (kadang nggak penting), dan giveaway random dari admin waras setengah.",
+      name: "Grup Whatsapp",
+      url: "https://wa.me/6285788229884",
+      icon: <FaWhatsapp size={36} className="text-white" />,
+      desc: "Gabung grup whatsaap buat update atau liat pengumuman penting (kadang nggak penting), dan giveaway random dari admin waras setengah.",
       type: "Ikuti",
-      badgeText: "42k+ followers",
-      bgIcon: "bg-blue-500",
+      badgeText: "40k+ member",
+      bgIcon: "bg-green-500",
       bgColor: "bg-blue-100",
       borderColor: "border-blue-300",
       textColor: "text-blue-800",

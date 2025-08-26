@@ -26,11 +26,11 @@ export default function AboutSection() {
       <div data-aos="fade-right" className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Text */}
         <div>
-          <h2 className="text-4xl font-bold mb-6">Tentang Imphnen</h2>
+          <h2 className="text-4xl font-bold mb-6 text-sky-700 pb-2">Tentang Imphnen</h2>
           <p className="sm:text-lg mb-4">
-            <b className="font-bold text-sky-500 underline-offset-4">IMPHNEN</b> atau "Ingin Menjadi Programmer Handal, Namun Enggan Ngoding" Bermula dari sebuah grup Facebook, komunitas ini menjadi tempat bagi orang-orang yang punya mimpi
-            jadi <b>programmer handal</b>, kalah sama <b>rasa malas</b> buat ngoding. Alih-alih produktif, mereka lebih asik scroll-scroll timeline. 😅 Dibentuk pada awal <b>2023</b> , IMPHNEN hadir buat bantu kamu yang mau tapi susah
-            banget mulai. Jadi, mau tetap mager atau mulai ngoding? Pilihan ada di tanganmu! 😎
+            <b className="font-bold text-sky-500 underline-offset-4 selection:bg-sky-200">IMPHNEN</b> atau "Ingin Menjadi Programmer Handal, Namun Enggan Ngoding" Bermula dari sebuah grup Facebook, komunitas ini menjadi tempat bagi orang-orang yang punya mimpi
+            jadi <b>programmer handal</b>, kalah sama <b>rasa malas</b> buat ngoding. Alih-alih produktif, mereka lebih asik scroll-scroll timeline. 😅 Dibentuk pada awal <b>2025</b> , IMPHNEN hadir buat bantu kamu yang mau tapi susah
+            banget mulai. Jadi, mau tetap mager atau mulai ngoding? Pilihan ada ditanganmu! 😎
           </p>
 
           <div className="space-y-3 text-base">

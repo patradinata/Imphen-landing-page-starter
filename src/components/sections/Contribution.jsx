@@ -21,8 +21,8 @@ export default function ContributionSection() {
             <h3 className="text-lg sm:text-2xl font-semibold text-gray-800 mr-2">Patra</h3>
             <span className="text-sm bg-blue-100 text-blue-600 font-medium px-3 py-1 rounded-full">🚧 Open for Collab</span>
           </div>
-          <p className="text-gray-700">
-            Saya adalah pembuat website IMPHNEN, seorang <strong>junior front end developer</strong> yang suka ngulik project, tapi sering mentok di buat repo aja karena malas 🥱
+          <p className="text-gray-700 selection:bg-sky-200 font-medium tracking-tight">
+            Saya adalah pembuat website IMPHNEN, seorang <strong>junior front end developer</strong> yang suka ngulik project, tapi sering mentok di buat repo aja karena malas😘🥱
           </p>
 
           <div className="flex justify-center md:justify-start gap-3 text-2xl text-blue-500 mt-4">

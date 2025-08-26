@@ -56,7 +56,7 @@ export default function ActivitySection() {
               <div className={`absolute w-full h-full border-2 border-dashed rounded-full ${activity.color} group-hover:animate-spin-slow`}></div>
 
               {/* Icon tetap diam */}
-              <div className="text-3xl z-10 ">{activity.icon}</div>
+              <div className="text-3xl z-10 text-sky-700 ">{activity.icon}</div>
             </div>
 
             <h3 className="mt-5 text-xl font-semibold mb-1 text-gray-800">{activity.title}</h3>

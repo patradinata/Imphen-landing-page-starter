@@ -3,25 +3,32 @@ import { Pattern } from "../common/Pattern";
 import Navbar from "../layout/Navbar";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import { Pacifico } from "next/font/google";
+
+const pacifico = Pacifico({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-vibes",
+});
 
 export default function HeroSection() {
   return (
     <section id="home" className="relative min-h-svh bg-gradient-to-t from-sky-50 to-slate-white">
       <Pattern />
-      <header className="z-10 h-svh flex flex-col items-center justify-start gap-8 p-6 pt-10 text-center">
+      <header className="z-10 h-[100vh] flex flex-col items-center justify-start gap-8 p-6 pt-10 text-center">
         <Navbar />
         <div className="z-10 flex flex-1 h-full flex-col justify-center items-center gap-4">
           <img data-aos="zoom-in" src="./logo-compressed.png" alt="logo" width="200" height="200" className="w-80 lg:w-96 drop-shadow-xl z-10" />
 
           <div data-aos="fade-up" className="flex flex-col  gap-3 items-center mt-4 sm:mt-8">
             <div className="px-4 py-1 text-sm border-2 border-dashed bg-sky-100 border-sky-200 text-sky-700 rounded-full font-medium animate-bounce selection:bg-sky-200">💤 Komunitas 24JAM Ngoding 💤</div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl text-sky-700 font-bold capitalize selection:bg-sky-200">
-              selamat datang di <strong>IMPHEN</strong>
-            </h1>
-            <p className="selection:bg-sky-200 max-w-sm text-sky-700 font-normal">
-              Hanya disini, dapatkan dopamin baru melalui postingan aneka ragam member, Belajar skill baru? Bisa. Tapi kita lebih jago fesnukan sambil sabung framework. Yuk, gabung sekarang... atau enggak juga nggak apa-apa sih. Kita juga
-              lagi mager promosi. Capek. #lanjut-scroll-fesnuk
+            <h1 className={`${pacifico.className} text-xl md:text-2xl lg:text-3xl selection:text-sky-500 font-bold text-sky-700 max-w-lg text-center`}>ingin menjadi programmer handal namun enggan ngoding</h1>
+            <p className="text-sky-700 font-medium selection:bg-sky-200">Tenang, kamu nggak sendirian.</p>
+            <p className="selection:bg-sky-200 max-w-sm md:max-w-md   text-sky-700 font-normal">
+              Kita tahu betul rasanya buka VSCode cuma buat ganti tema, bukan buat nulis baris kode. Rasanya lebih gampang klik “New Terminal” buat nyeduh kopi daripada ngetik npm start buat jalanin project <br />
+              <code>#CodeWithPatra</code>
             </p>
+
             <div className="flex gap-4 pt-4 text-sm w-full">
               <a href="#join&follow" className="flex-1 whitespace-nowrap bg-sky-500 hover:bg-sky-600 text-white font-semibold rounded-lg px-6 py-3 transition">
                 Bergabung Sekarang

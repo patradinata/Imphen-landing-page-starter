@@ -109,6 +109,12 @@ export default function TestimonialSection() {
       message: "Kesempatan bagus untuk belajar, sharing, dan berkarya bersama. Terima kasih!",
       avatar: "/avatars/testimonials/4.svg",
     },
+    {
+      name: "Kurnia Ramadhan",
+      role: "UI/UX Designer",
+      message: "Awalnya sering scrool Facebook, sekarang lebih sering ngoding. Tapi kadang tidur kadang ngoding.",
+      avatar: "/avatars/founders/1.svg",
+    },
   ];
 
   return (

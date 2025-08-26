@@ -58,6 +58,14 @@ const founders = [
     telegram: "#",
     avatar: "/avatars/founders/3.svg",
   },
+  {
+    name: "Yusrizal Fikri",
+    role: "Project Manager",
+    github: "#",
+    linkedin: "#",
+    telegram: "#",
+    avatar: "/avatars/founders/4.svg",
+  },
 ];
 
 export default function FoundersSection() {
