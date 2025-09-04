@@ -30,13 +30,13 @@ export default function HeroSection() {
 
           <div data-aos="fade-up" className="flex flex-col gap-3 items-center mt-4 sm:mt-8">
             <div className="border-2 border-dashed bg-sky-100 border-sky-300 text-sky-700 font-medium animate-bounce px-4 py-1 rounded-full ">💤 Komunitas 24JAM Ngoding 💤</div>
-            <h1 className={`${pacifico.className} text-2xl lg:text-3xl selection:text-sky-500 font-bold text-sky-700 max-w-lg text-center`}>ingin menjadi programmer handal namun enggan ngoding🤔🫣?</h1>
+            <h1 className={`${pacifico.className} text-2xl lg:text-3xl selection:text-sky-500 font-bold text-sky-700 max-w-sm text-center`}>ingin menjadi programmer handal namun enggan ngoding🤔🫣?</h1>
             <p className="text-sky-700 font-medium selection:bg-sky-200">Tenang, kamu nggak sendirian😍.</p>
             <p className="selection:bg-sky-200 max-w-sm md:max-w-md   text-sky-700 font-normal">
               Kita tahu betul rasanya buka VSCode cuma buat ganti tema, bukan buat nulis baris kode. Rasanya lebih gampang klik “New Terminal” buat nyeduh kopi daripada ngetik npm start buat jalanin project. <br />
-              <span className={`${jetbrainsmono.className} text-base text-center   italic`}>
+              {/* <span className={`${jetbrainsmono.className} text-base text-center   italic`}>
                 ”Saya bukan programmer hebat, Saya hanya programmer yang baik dengan kebiasaan yang hebat” <span className="block text-sm mt-1 italic">"patra_dinata"</span>
-              </span>
+              </span> */}
             </p>
 
             <div className="flex gap-4 pt-4 text-sm w-full">
