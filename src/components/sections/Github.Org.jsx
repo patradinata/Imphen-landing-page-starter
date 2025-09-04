@@ -32,7 +32,7 @@ export default function GithubOrgSection() {
             className="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-gray-900 transition"
           >
             <FaGithub size={20} />
-            <div className="flex flex-col">Kunjungi GitHub Kami</div>
+           <div className="flex flex-col">kunjungi Github Admin😎</div>
           </a>
         </div>
 

@@ -35,8 +35,8 @@ export default function AboutSection() {
 
           <div className="space-y-3 text-base">
             {communityHighlights.map((highlight, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <span className={`${highlight.iconColor} text-xl`}>{highlight.icon}</span>
+              <div key={index} className="flex items-center gap-2">
+                <span className={`${highlight.iconColor} text-lg md:text-xl`}>{highlight.icon}</span>
                 <span>
                   <strong>{highlight.highlight}</strong> {highlight.description}
                 </span>

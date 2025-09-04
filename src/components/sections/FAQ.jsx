@@ -33,8 +33,11 @@ export default function FAQSection() {
 
   return (
     <section className="text-center pt-4">
-      <h2 className="text-3xl font-bold text-gray-800 mb-4">Tanya-Tanya Dulu Yuk</h2>
-      <p className="text-gray-600 mb-8">Beberapa pertanyaan yang sering banget muncul. Kalau masih penasaran, DM aja admin… kalau lagi online 😎</p>
+      <h2 className="text-3xl font-bold text-gray-800 mb-4 selection:bg-sky-200">
+        {" "}
+        <span className="text-sky-500">Tanya-Tanya</span> Dulu Yuk
+      </h2>
+      <p className="text-gray-600 mb-8 selection:text-gray-700 selection:bg-sky-200">Beberapa pertanyaan yang sering banget muncul. Kalau masih penasaran, DM aja admin… kalau lagi online 😎</p>
 
       <div className="text-left space-y-4">
         {faqs.map((faq, idx) => (

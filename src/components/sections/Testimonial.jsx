@@ -10,7 +10,7 @@ const settings = {
   dots: true,
   arrows: false,
   infinite: true,
-  speed: 500,
+  speed: 600,
   slidesToShow: 1,
   autoplaySpeed: 2000,
   slidesToScroll: 1,
@@ -53,7 +53,7 @@ export default function TestimonialSection() {
   const sliderRef = useRef(null);
 
   useEffect(() => {
-    const slides = document.querySelectorAll(".slick-slide");
+    const slides = document.querySelectorAll("slick-slide");
     let maxHeight = 0;
 
     slides.forEach((slide) => {
@@ -80,7 +80,7 @@ export default function TestimonialSection() {
       avatar: "/avatars/testimonials/1.svg",
     },
     {
-      name: "Anindya D.",
+      name: "Hanifah Absarini",
       role: "Backend Beginner",
       message: "Awalnya cuma scroll meme, eh sekarang malah belajar contribute ke open source. Gila sih komunitas ini!",
       avatar: "/avatars/testimonials/2.svg",
@@ -115,11 +115,38 @@ export default function TestimonialSection() {
       message: "Awalnya sering scrool Facebook, sekarang lebih sering ngoding. Tapi kadang tidur kadang ngoding.",
       avatar: "/avatars/founders/1.svg",
     },
+    {
+      name: "Adelia Isni",
+      role: "Support System",
+      message: "Setelah gabung, saya langsung uninstall TikTok, karena feed grup ini lebih chaotic dan menyenangkan.",
+      avatar: "/avatars/testimonials/4.svg",
+    },
+    {
+      name: "Dinda Citra Natasya",
+      role: "Chief Officer",
+      message: "Setelah gabung, saya langsung uninstall TikTok, karena feed grup ini lebih chaotic dan menyenangkan.",
+      avatar: "/avatars/founders/3.svg",
+    },
+    {
+      name: "Kurnia Khotmawati",
+      role: "Chief Officer",
+      message: "Setelah gabung, saya langsung uninstall TikTok, karena feed grup ini lebih chaotic dan menyenangkan.",
+      avatar: "/avatars/testimonials/4.svg",
+    },
+       {
+      name: "Asih Maulida",
+      role: "Chief Officer",
+      message: "Setelah gabung, saya langsung uninstall TikTok, karena feed grup ini lebih chaotic dan menyenangkan.",
+      avatar: "/avatars/testimonials/2.svg",
+    },
+
   ];
 
   return (
     <section id="testimony" className="text-center relative pt-4">
-      <h2 className="text-3xl font-bold text-gray-800 mb-4 selection:bg-sky-200">Testimoni Member</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 selection:bg-sky-200">
+        Testimoni <span className="text-sky-500">Member</span>
+      </h2>
       <p className="text-gray-600 mb-6 selection:bg-sky-200">Kisah nyata dari para pemalas produktif: ngoding dikit, fesnukan banyak. Tapi tetap keren (kadang).</p>
 
       {/* Tombol Prev */}
@@ -129,7 +156,7 @@ export default function TestimonialSection() {
         onClick={() => sliderRef.current?.slickPrev()}
         className="absolute left-0 sm:-left-1 top-[70%] -translate-y-1/2 z-10 p-3 bg-white border border-slate-200 rounded-full shadow-md hover:bg-slate-100 transition"
       >
-        <FaChevronLeft className="text-xl text-slate-600" />
+        <FaChevronLeft className="text-xl text-sky-500" />
       </button>
 
       {/* Tombol Next */}
@@ -138,7 +165,7 @@ export default function TestimonialSection() {
         onClick={() => sliderRef.current?.slickNext()}
         className="absolute  -right-2 sm:-right-2 top-[70%] -translate-y-1/2 z-10 p-3 bg-white border border-slate-200 rounded-full shadow-md hover:bg-slate-100 transition"
       >
-        <FaChevronRight className="text-xl text-slate-600" />
+        <FaChevronRight className="text-xl text-sky-500" />
       </button>
       {/* Slider */}
       <Slider {...settings} ref={sliderRef}>

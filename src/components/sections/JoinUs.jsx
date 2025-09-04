@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaDiscord, FaUsers, FaWhatsapp, FaWhatsappSquare } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaDiscord, FaWhatsapp } from "react-icons/fa";
 import { PiArrowRightFill, PiArrowRightLight } from "react-icons/pi";
 import GithubOrgSection from "./Github.Org";
 
@@ -6,7 +6,7 @@ export default function JoinUsSection() {
   const socialLinks = [
     {
       name: "Server Discord",
-      url: "https://discord.gg/YOUR_INVITE",
+      url: "#",
       icon: <FaDiscord size={36} className="text-white" />,
       desc: "Tempat nongkrong online, entah lagi ngobrol kodingan, ngeluh hidup, atau sekadar nyalain mic biar nggak sepi, tenang disini ga disirkelin.",
       type: "Gabung",
@@ -20,7 +20,7 @@ export default function JoinUsSection() {
     },
     {
       name: "Grup Facebook",
-      url: "https://www.facebook.com/groups/YOUR_FB_GROUP",
+      url: "#",
       icon: <FaFacebookF size={36} className="text-white" />,
       desc: "Sumber dopamin utama para orang yang pengen jadi programmer handal yang gada motivasi selalu ada postingan menarik setiap hari.",
       type: "Gabung",
@@ -48,7 +48,7 @@ export default function JoinUsSection() {
     },
     {
       name: "Grup Whatsapp",
-      url: "https://wa.me/6285788229884",
+      url: "https://chat.whatsapp.com/GcXqRRaOkY5EHdBKXWlX8N?mode=ems_share_t",
       icon: <FaWhatsapp size={36} className="text-white" />,
       desc: "Gabung grup whatsaap buat update atau liat pengumuman penting (kadang nggak penting), dan giveaway random dari admin waras setengah.",
       type: "Ikuti",
@@ -64,8 +64,10 @@ export default function JoinUsSection() {
 
   return (
     <section id="join&follow" className="text-center pt-4">
-      <h2 className="text-4xl font-extrabold mb-2 text-gray-800">Gabung & Ikuti Kami</h2>
-      <p className="text-gray-600 text-lg mb-10 max-w-2xl mx-auto">Yuk, ikut nimbrung bareng komunitas. Mau ngobrol, curhat, belajar, atau nyari hiburan? Kita ada tempatnya semua!</p>
+      <h2 className="text-4xl font-extrabold mb-2 text-gray-800">
+        Gabung & <span className="text-sky-500">Ikuti Kami</span>
+      </h2>
+      <p className="text-gray-600 text-lg mb-10 max-w-2xl mx-auto p-2">Yuk, ikut nimbrung bareng komunitas. Mau ngobrol, curhat, belajar, atau nyari hiburan? Kita ada tempatnya semua!</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {socialLinks.map((link, index) => (
